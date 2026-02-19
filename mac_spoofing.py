@@ -4,7 +4,7 @@ import time
 from scapy.all import *
 
 # --- CONFIGURACIÓN ---
-INTERFACE = "eth0"
+INTERFACE = "eth0" #cambiar a tu interfaz
 # La MAC que quieres suplantar. 
 # He puesto tu matrícula al final para la evidencia.
 # En un ataque real, pondrías la MAC de una PC víctima autorizada.
