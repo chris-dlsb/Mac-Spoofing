@@ -8,7 +8,7 @@ INTERFACE = "eth0"
 # La MAC que quieres suplantar. 
 # He puesto tu matrícula al final para la evidencia.
 # En un ataque real, pondrías la MAC de una PC víctima autorizada.
-NEW_MAC = "00:11:22:33:14:14" 
+NEW_MAC = "00:11:22:33:14:14" #poner la mac de tu preferencia
 TARGET_IP = "10.14.14.1" # IP del Gateway (Router IOU)
 
 def get_current_mac(iface):
